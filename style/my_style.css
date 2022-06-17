@@ -42,7 +42,7 @@ header .container {
   grid-template-rows: repeat(1, 1fr);
   justify-items: center;
   align-items: center;
-  z-index: 1;
+  z-index: -1;
   margin-top: 0;
 }
 
@@ -148,7 +148,7 @@ nav {
   align-items: center;
   text-align: center;
   flex-direction: column;
-  z-index: 0;
+  z-index: -1;
 }
 
 .titular>h1 {
@@ -393,18 +393,7 @@ footer .container {
     padding-bottom: 0;
     padding-right: 10px;
   }
-/*
-  #sobre_mi .texto {
-    width: 50%;
-    text-align: justify;
-    padding-left: 50px;
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: larger;
-    text-shadow: 2px 2px 3px black;
-  }*/
+
 
   #sobre_mi .img-container {
     height: 300px;
